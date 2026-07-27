@@ -1,0 +1,2 @@
+total_prs,closed_or_merged,merged,acceptance_rate,avg_time_to_close_hours,avg_time_to_close_days,avg_body_length,avg_commits,avg_changed_files,avg_code_churn,avg_review_iterations,avg_total_comments,avg_reviewer_workload_hours
+920,918,806,0.8760869565217392,57.26322277046776,2.3859676154361575,517.025,1.9334787350054525,44.88222464558343,6892.620501635769,1.0054347826086956,2.1293478260869567,14.886658700386173
