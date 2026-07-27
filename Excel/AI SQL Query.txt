@@ -1,0 +1,16 @@
+SELECT 
+    id,
+    title,
+    body,
+    state,
+    created_at,
+    merged_at,
+    agent,
+    html_url
+FROM all_pr_all_pull_request
+WHERE 
+    (lower(title) LIKE '%revert%'
+    OR lower(title) LIKE '%rollback%'
+    OR lower(title) LIKE '%roll back%')
+    AND agent IS NOT NULL
+ORDER BY agent, created_at;
