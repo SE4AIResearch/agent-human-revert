@@ -1,7 +1,7 @@
 # agent-human-revert
 # Comparing AI Agent and Human Revert Pull Requests
 
-An empirical study of process, review, and failure modes comparing 842 agent-generated and 920 human-generated revert pull requests on GitHub. We use the Mann-Whitney U test, Cliff's Delta, and a qualitative revert-reason taxonomy.
+An empirical study of process, review, and failure modes that compares 842 agent-generated and 920 human-generated revert pull requests on GitHub. We use the Mann-Whitney U test, Cliff's Delta, and a qualitative revert-reason taxonomy.
 
 ## Repository Structure
 
