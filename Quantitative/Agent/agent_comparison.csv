@@ -1,0 +1,6 @@
+agent,total_prs,merged,closed_or_merged,acceptance_rate,avg_time_to_close_hours,avg_time_to_close_days,avg_body_length,avg_commits,avg_changed_files,avg_additions,avg_deletions,avg_code_churn,avg_review_iterations,avg_total_comments,avg_reviewer_workload_hours
+claude_code,4,3,4,0.75,6.181,0.258,1014.75,3.0,4.0,12.0,81.5,93.5,0.25,0.5,15.303
+copilot,56,31,49,0.5536,7.365,0.307,2054.429,3.259,15.926,206.815,3459.315,3666.13,0.536,1.464,11.282
+cursor,14,6,10,0.4286,0.111,0.005,340.429,1.875,3.875,101.25,171.125,272.375,0.071,0.143,0.041
+devin,65,51,65,0.7846,2.109,0.088,924.246,2.41,15.361,995.951,1346.82,2342.77,0.108,1.754,0.033
+openai_codex,702,636,680,0.906,0.918,0.038,260.379,1.742,6.854,617.277,1087.411,1704.688,0.027,0.131,2.868

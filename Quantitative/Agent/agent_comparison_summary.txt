@@ -1,0 +1,104 @@
+============================================================
+  REVERT PR METRICS BY AGENT — SUMMARY
+============================================================
+
+── CLAUDE_CODE ──────────────────────────────
+  Total revert PRs:        4
+  Merged:                  3
+  Acceptance rate:         75.0%
+  Avg time to close:       6.18 hours
+  Avg commits:             3.00
+  Avg changed files:       4.00
+  Avg code churn (lines):  94
+  Avg review iterations:   0.25
+  Avg total comments:      0.50
+
+── COPILOT ──────────────────────────────
+  Total revert PRs:        56
+  Merged:                  31
+  Acceptance rate:         55.4%
+  Avg time to close:       7.37 hours
+  Avg commits:             3.26
+  Avg changed files:       15.93
+  Avg code churn (lines):  3666
+  Avg review iterations:   0.54
+  Avg total comments:      1.46
+
+── CURSOR ──────────────────────────────
+  Total revert PRs:        14
+  Merged:                  6
+  Acceptance rate:         42.9%
+  Avg time to close:       0.11 hours
+  Avg commits:             1.88
+  Avg changed files:       3.88
+  Avg code churn (lines):  272
+  Avg review iterations:   0.07
+  Avg total comments:      0.14
+
+── DEVIN ──────────────────────────────
+  Total revert PRs:        65
+  Merged:                  51
+  Acceptance rate:         78.5%
+  Avg time to close:       2.11 hours
+  Avg commits:             2.41
+  Avg changed files:       15.36
+  Avg code churn (lines):  2343
+  Avg review iterations:   0.11
+  Avg total comments:      1.75
+
+── OPENAI_CODEX ──────────────────────────────
+  Total revert PRs:        702
+  Merged:                  636
+  Acceptance rate:         90.6%
+  Avg time to close:       0.92 hours
+  Avg commits:             1.74
+  Avg changed files:       6.85
+  Avg code churn (lines):  1705
+  Avg review iterations:   0.03
+  Avg total comments:      0.13
+
+============================================================
+  QUICK COMPARISON TABLE
+============================================================
+
+  Acceptance Rate:
+    OPENAI_CODEX         90.6%
+    DEVIN                78.5%
+    CLAUDE_CODE          75.0%
+    COPILOT              55.4%
+    CURSOR               42.9%
+
+  Avg Time to Close (hrs):
+    COPILOT              7.37
+    CLAUDE_CODE          6.18
+    DEVIN                2.11
+    OPENAI_CODEX         0.92
+    CURSOR               0.11
+
+  Avg Code Churn (lines):
+    COPILOT              3666
+    DEVIN                2343
+    OPENAI_CODEX         1705
+    CURSOR               272
+    CLAUDE_CODE          94
+
+  Avg Review Iterations:
+    COPILOT              0.54
+    CLAUDE_CODE          0.25
+    DEVIN                0.11
+    CURSOR               0.07
+    OPENAI_CODEX         0.03
+
+  Avg Total Comments:
+    DEVIN                1.75
+    COPILOT              1.46
+    CLAUDE_CODE          0.50
+    CURSOR               0.14
+    OPENAI_CODEX         0.13
+
+  Total PRs:
+    OPENAI_CODEX         702
+    DEVIN                65
+    COPILOT              56
+    CURSOR               14
+    CLAUDE_CODE          4
