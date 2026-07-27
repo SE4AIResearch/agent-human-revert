@@ -6,7 +6,7 @@ Four scripts are included as replication scripts:
 * `get_pr_metrics.py` — Pulls PR-level metrics from the GitHub API (commits, additions, deletions, code churn, review iterations, comments, reviewer workload). Requires a `GITHUB_TOKEN` environment variable.
 * `compare_pr_metrics.py` — Runs Shapiro-Wilk normality checks, Mann-Whitney U, and Cliff's Delta across all metrics for agent vs. human revert PRs.
 * `spearman_correlation.py` — Generates Spearman rank correlation heatmaps for each group.
-* `compare_by_agent.py` — Breaks down metrics by individual AI agent: OpenAI Codex, Devin, Copilot, Cursor, Claude Code (Threats to Validity).
+* `compare_by_agent.py` — Breaks down metrics by individual AI agent: OpenAI Codex, Devin, Copilot, Cursor, Claude Code.
 
 Requirements: `pip install pandas numpy scipy matplotlib`
 Usage: `python get_pr_metrics.py --ids <ids> --csv <input.csv> --out_full <out.csv> --out_summary <out.csv>` / `python compare_pr_metrics.py --file-a <agent.csv> --file-b <human.csv>` / `python spearman_correlation.py` / `python compare_by_agent.py`
