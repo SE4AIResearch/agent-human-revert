@@ -13,7 +13,7 @@ Usage: `python get_pr_metrics.py --ids <ids> --csv <input.csv> --out_full <out.c
 
 ## Data
 
-- `agent_revert_prs.csv` / `human_revert_prs.csv` — final per-PR metrics for the datasets used in Table 5 and Figure 4.
+- `agent_revert_prs.csv` / `human_revert_prs.csv` — final per-PR metrics for the datasets.
 - `agent_comparison.csv` / `agent_comparison_summary.txt` — per-agent breakdown (output of `compare_by_agent.py`).
 - `metrics_comparison_table.csv`, `metrics_summary_by_file.csv`, `metrics_long_concat.csv` — outputs of `compare_pr_metrics.py`.
 - `plots` — box plots (one per metric) and Spearman correlation heatmaps (`corr_agent.png`, `corr_human.png`).
