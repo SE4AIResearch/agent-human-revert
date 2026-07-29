@@ -12,7 +12,7 @@ An empirical study of process, review, and failure modes that compares 842 agent
 └── README.md       — This file
 ```
 
-Each subfolder has its own README with details specific to that part of the study — see `Quantitative/README.md` and `Qualitative/README.md`.
+Each subfolder has its own README with details specific to that part of the study — see [Quantitative/README.md](Quantitative/README.md), [Qualitative/README.md](Qualitative/README.md), and [Excel/](Excel/).
 
 ## Summary
 
